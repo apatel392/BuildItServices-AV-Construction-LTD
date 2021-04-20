@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.mySlides {display:inline;margin-left:auto;margin-right:auto;}
+.w3-display-container img{
+max-height:500px;
+}
+</style>
+</head>
+<body>
+
+<div class="w3-container">
+  <h2 style="text-align:center;">INDUSTRIAL PROJECTS</h2>
+</div>
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="https://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-ac4586j1nclh0ui1g0i1gqook0-20160322011209.Medi.jpeg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Krishnapatnam Power Plant
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="https://www.theindustryoutlook.com/uploaded_images/newstransfer/tq3krpolysilicon2.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    PolySilicon Manufacturing Plant, Guwahati
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="https://www.power-technology.com/wp-content/uploads/sites/7/2020/10/andreas-felske-oQEdDIMEIlc-unsplash.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Blast Furnace-Steel Plant - Nagarnar
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="http://www.railwaysreview.com/wp-content/uploads/2018/10/Thyssenkrup.png" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    2400 TPH Coal Handling Plant, Lara
+  </div>
+</div>
+
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
