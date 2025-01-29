@@ -22,14 +22,16 @@ Welcome to the **BuildItServices - AV Construction LTD** website repository! Thi
 ## 🚀 Installation & Setup
 To run the project locally:
 1. Clone the repository:
+   
    ```sh
    git clone https://github.com/patelcodes26/BuildItServices-AV-Construction-LTD.git
    ```
-2. Navigate to the project folder:
+3. Navigate to the project folder:
+   
    ```sh
    cd BuildItServices-AV-Construction-LTD
    ```
-3. Open the `index.html` file in a browser.
+5. Open the `index.html` file in a browser.
 
 
 ## 📝 Future Enhancements
