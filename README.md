@@ -31,22 +31,9 @@ To run the project locally:
    ```
 3. Open the `index.html` file in a browser.
 
-## 📂 Project Structure
-```
-BuildItServices-AV-Construction-LTD/
-│── index.html       # Main landing page
-│── about.html       # About the company
-│── services.html    # List of services offered
-│── projects.html    # Showcase of completed projects
-│── contact.html     # Contact information & form
-│── assets/
-│   ├── css/         # Stylesheets
-│   ├── js/          # JavaScript files
-│   ├── images/      # Project images and assets
-└── README.md        # Project documentation
-```
 
 ## 📝 Future Enhancements
+- Integrate a **marketplace** where customers can shop for construction materials and related products.
 - Add a **blog section** to share construction tips and industry insights.
 - Implement a **dynamic backend** for form submissions.
 - Improve **animations and UI enhancements**.
@@ -57,11 +44,6 @@ Contributions are welcome! If you'd like to improve the website, please:
 2. Create a new branch (`feature-update`)
 3. Commit your changes
 4. Push to your branch and create a Pull Request
-
-## 📩 Contact
-For any queries, feel free to reach out:
-- **Email:** apcodes7@gmail.com
-- **GitHub:** [@patelcodes26](https://github.com/patelcodes26)
 
 ---
 🚧 Built with passion for AV Construction LTD 🚧
