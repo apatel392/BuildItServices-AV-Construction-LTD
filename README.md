@@ -24,7 +24,7 @@ To run the project locally:
 1. Clone the repository:
    
    ```sh
-   git clone https://github.com/patelcodes26/BuildItServices-AV-Construction-LTD.git
+   git clone https://github.com/apatel392/BuildItServices-AV-Construction-LTD.git
    ```
 3. Navigate to the project folder:
    
